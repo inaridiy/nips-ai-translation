@@ -4,7 +4,7 @@ import { sha256 } from "https://denopkg.com/chiefbiiko/sha256@v1.0.0/mod.ts";
 const MODEL_NAME = "claude-3-5-sonnet-20240620";
 const MAX_OUTPUT_TOKEN = 4096;
 const MAX_ITERATIONS = 10;
-const TARGET_LANGUAGE = "ja";
+const TARGET_LANGUAGE = "chinese";
 const API_KEY = Deno.env.get("ANTHROPIC_API_KEY");
 
 const TRANSLATTE_PROMPT =
