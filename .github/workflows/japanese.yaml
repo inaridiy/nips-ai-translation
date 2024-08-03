@@ -3,7 +3,7 @@ name: Auto Translation CI
 on:
   push:
     branches:
-      - main
+      - master
     paths:
       - "*.md"
 env:
