@@ -1,3 +1,7 @@
+# NIPs AI Translation
+
+This repository automatically translates nips and publishes the results.
+
 # NIPs
 
 NIPs stand for **Nostr Implementation Possibilities**.
@@ -6,17 +10,20 @@ They exist to document what may be implemented by [Nostr](https://github.com/nos
 
 ---
 
-- [List](#list)
-- [Event Kinds](#event-kinds)
-- [Message Types](#message-types)
-  - [Client to Relay](#client-to-relay)
-  - [Relay to Client](#relay-to-client)
-- [Standardized Tags](#standardized-tags)
-- [Criteria for acceptance of NIPs](#criteria-for-acceptance-of-nips)
-- [Is this repository a centralizing factor?](#is-this-repository-a-centralizing-factor)
-- [How this repository works](#how-this-repository-works)
-- [Breaking Changes](#breaking-changes)
-- [License](#license)
+- [NIPs AI Translation](#nips-ai-translation)
+- [NIPs](#nips)
+  - [List](#list)
+  - [Event Kinds](#event-kinds)
+  - [Message types](#message-types)
+    - [Client to Relay](#client-to-relay)
+    - [Relay to Client](#relay-to-client)
+  - [Standardized Tags](#standardized-tags)
+  - [Criteria for acceptance of NIPs](#criteria-for-acceptance-of-nips)
+  - [Is this repository a centralizing factor?](#is-this-repository-a-centralizing-factor)
+  - [How this repository works](#how-this-repository-works)
+  - [Breaking Changes](#breaking-changes)
+  - [License](#license)
+  - [Contributors](#contributors)
 
 ---
 
