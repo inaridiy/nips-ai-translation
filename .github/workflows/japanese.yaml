@@ -1,4 +1,4 @@
-name: Auto Translation CI
+name: Japanese Translation
 
 on:
   push:
@@ -14,7 +14,7 @@ env:
   ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
   ORIGINAL_GLOB: "./*.md"
 jobs:
-  format:
+  translate:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
