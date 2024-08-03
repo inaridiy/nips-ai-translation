@@ -1,7 +1,7 @@
 # NIPs AI Translation
 
 This repository automatically translates nips and publishes the results.
-This translation has been produced with Claude3.5 Sonnet
+This translation has been produced with Claude3.5 Sonnet.
 
 # NIPs
 
