@@ -85,6 +85,7 @@ They exist to document what may be implemented by [Nostr](https://github.com/nos
 - [NIP-70: Protected Events](70.md)
 - [NIP-71: Video Events](71.md)
 - [NIP-72: Moderated Communities](72.md)
+- [NIP-73: External Content IDs](73.md)
 - [NIP-75: Zap Goals](75.md)
 - [NIP-78: Application-specific data](78.md)
 - [NIP-84: Highlights](84.md)
@@ -116,6 +117,7 @@ They exist to document what may be implemented by [Nostr](https://github.com/nos
 | `13`          | Seal                            | [59](59.md)                            |
 | `14`          | Direct Message                  | [17](17.md)                            |
 | `16`          | Generic Repost                  | [18](18.md)                            |
+| `17`          | Reaction to a website           | [25](25.md)                            |
 | `40`          | Channel Creation                | [28](28.md)                            |
 | `41`          | Channel Metadata                | [28](28.md)                            |
 | `42`          | Channel Message                 | [28](28.md)                            |
@@ -158,7 +160,7 @@ They exist to document what may be implemented by [Nostr](https://github.com/nos
 | `10009`       | User groups                     | [51](51.md), [29](29.md)               |
 | `10015`       | Interests list                  | [51](51.md)                            |
 | `10030`       | User emoji list                 | [51](51.md)                            |
-| `10050`       | Relay list to receive DMs       | [17](17.md)                            |
+| `10050`       | Relay list to receive DMs       | [51](51.md), [17](17.md)               |
 | `10096`       | File storage server list        | [96](96.md)                            |
 | `13194`       | Wallet Info                     | [47](47.md)                            |
 | `21000`       | Lightning Pub RPC               | [Lightning.Pub][lnpub]                 |
@@ -246,13 +248,13 @@ They exist to document what may be implemented by [Nostr](https://github.com/nos
 | `-`               | --                                   | --                              | [70](70.md)                           |
 | `g`               | geohash                              | --                              | [52](52.md)                           |
 | `h`               | group id                             | --                              | [29](29.md)                           |
-| `i`               | identity                             | proof                           | [39](39.md)                           |
+| `i`               | external identity                    | proof, url hint                 | [39](39.md), [73](73.md)              |
 | `k`               | kind number (string)                 | --                              | [18](18.md), [25](25.md), [72](72.md) |
 | `l`               | label, label namespace               | --                              | [32](32.md)                           |
 | `L`               | label namespace                      | --                              | [32](32.md)                           |
 | `m`               | MIME type                            | --                              | [94](94.md)                           |
 | `q`               | event id (hex)                       | relay URL                       | [18](18.md)                           |
-| `r`               | a reference (URL, etc)               | petname                         | [24](24.md)                           |
+| `r`               | a reference (URL, etc)               | --                              | [24](24.md), [25](25.md)              |
 | `r`               | relay url                            | marker                          | [65](65.md)                           |
 | `t`               | hashtag                              | --                              |                                       |
 | `alt`             | summary                              | --                              | [31](31.md)                           |
