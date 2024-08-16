@@ -38,7 +38,7 @@ They exist to document what may be implemented by [Nostr](https://github.com/nos
 - [NIP-06: Basic key derivation from mnemonic seed phrase](06.md)
 - [NIP-07: `window.nostr` capability for web browsers](07.md)
 - [NIP-08: Handling Mentions](08.md) --- **unrecommended**: deprecated in favor of [NIP-27](27.md)
-- [NIP-09: Event Deletion](09.md)
+- [NIP-09: Event Deletion Request](09.md)
 - [NIP-10: Conventions for clients' use of `e` and `p` tags in text events](10.md)
 - [NIP-11: Relay Information Document](11.md)
 - [NIP-13: Proof of Work](13.md)
@@ -107,7 +107,7 @@ They exist to document what may be implemented by [Nostr](https://github.com/nos
 | `2`           | Recommend Relay                 | 01 (deprecated)                        |
 | `3`           | Follows                         | [02](02.md)                            |
 | `4`           | Encrypted Direct Messages       | [04](04.md)                            |
-| `5`           | Event Deletion                  | [09](09.md)                            |
+| `5`           | Event Deletion Request          | [09](09.md)                            |
 | `6`           | Repost                          | [18](18.md)                            |
 | `7`           | Reaction                        | [25](25.md)                            |
 | `8`           | Badge Award                     | [58](58.md)                            |
@@ -272,7 +272,7 @@ They exist to document what may be implemented by [Nostr](https://github.com/nos
 | `encrypted`       | --                                   | --                              | [90](90.md)                           |
 | `expiration`      | unix timestamp (string)              | --                              | [40](40.md)                           |
 | `goal`            | event id (hex)                       | relay URL                       | [75](75.md)                           |
-| `image`           | image URL                            | dimensions in pixels            | [23](23.md), [58](58.md)              |
+| `image`           | image URL                            | dimensions in pixels            | [23](23.md), [52](52.md), [58](58.md) |
 | `imeta`           | inline metadata                      | --                              | [92](92.md)                           |
 | `lnurl`           | `bech32` encoded `lnurl`             | --                              | [57](57.md)                           |
 | `location`        | location string                      | --                              | [52](52.md), [99](99.md)              |
@@ -286,7 +286,7 @@ They exist to document what may be implemented by [Nostr](https://github.com/nos
 | `relays`          | relay list                           | --                              | [57](57.md)                           |
 | `server`          | file storage server url              | --                              | [96](96.md)                           |
 | `subject`         | subject                              | --                              | [14](14.md), [17](17.md)              |
-| `summary`         | article summary                      | --                              | [23](23.md)                           |
+| `summary`         | summary                              | --                              | [23](23.md), [52](52.md)              |
 | `thumb`           | badge thumbnail                      | dimensions in pixels            | [58](58.md)                           |
 | `title`           | article title                        | --                              | [23](23.md)                           |
 | `web`             | webpage URL                          | --                              | [34](34.md)                           |
